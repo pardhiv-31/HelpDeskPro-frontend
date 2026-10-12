@@ -1,0 +1,30 @@
+# Frontend dependencies and generated output
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Backend build output and Maven wrapper cache
+helpdesk-pro/target/
+helpdesk-pro/.mvn/wrapper/maven-wrapper.jar
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials/
+
+# Logs and local tool output
+*.log
+logs/
+.tsupgrader/
+
+# IDE and OS files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+.DS_Store
+Thumbs.db
